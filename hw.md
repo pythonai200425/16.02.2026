@@ -121,16 +121,6 @@ Vehicle (abstract)
                         └── Chargeable (interface)
 ```
 
----
-
-## ⭐ Bonus (Optional)
-
-1. Add validation so battery level cannot be negative
-2. Add another class `ElectricBike`
-3. Create a list of vehicles and run `move()` on all of them (polymorphism)
-
----
-
 ## 🧠 Tips
 
 * Use `from abc import ABC, abstractmethod`

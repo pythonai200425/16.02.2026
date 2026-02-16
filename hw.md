@@ -128,8 +128,6 @@ Vehicle (abstract)
 * Use `@override` from `typing_extensions` (optional)
 * Keep methods short and clear
 
----
-
 Good luck 🚀
 
 Submit email: **[pythonai200425+oopint@gmail.com](mailto:pythonai200425+oopint@gmail.com)**

@@ -2,9 +2,9 @@
 '''
 class interface ArnonaPay-- def payArnona()
 class interface RentPay-- def payRent()
-class Person -- id, name
+class Person -- id, name  __str__  __init__
 class Tenant inherits Person implements ArnonaPay, RentPay
-         data -- arnona, rent, address
+         data -- arnona, rent, address  __str__ __init__
 create a Tenant and execute pay_rent, pay_arnona
 '''
 
@@ -26,6 +26,7 @@ class Dog(Animal):
         print(f"{self.name} runs")
 
 class Bat(Animal, Flyable):
+    @override
     def move(self):
         print(f"{self.name} crawls")
 
